@@ -1,0 +1,187 @@
+html {
+    background: #000000;
+}
+header {
+  background: #000000;
+  width: 1310px;
+  height: 95px;
+}
+body {
+    width: 1310px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF; 
+}
+h1 {
+    font-size: 40px;
+    color: #007D7B;
+    text-transform: uppercase;
+    float: left;
+    width: 400px;
+    position: absolute;
+    margin: 25px 0px;
+}
+h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+p {
+    font-size: 20px;
+}
+nav {
+    float: right;
+}
+#navigation {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+nav li {
+    display: inline-block;
+    margin: 40px 40px 20px 40px;
+}
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+nav a:hover {
+    color: #007D7B
+}
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    width: 80px;
+    height: 40px;
+    background: #007D7B;
+    z-index: 1;
+    text-align: center;
+    padding: 5px;
+}
+[href="#top"]:hover {
+    color: #007D7B;
+    background: #FFFFFF;
+}
+main {
+    clear: both;
+}
+.box {
+    background: #FFFFFF;
+    color: #000000;
+    height: auto;
+}
+.box h2, .box p {
+    color: #000000;
+    margin: 5px 0px 0px 5px;
+}
+img[src*="TK"] {
+    width: 850px;
+    float: left;
+    position: relative;
+    margin: 10px;
+}
+#about {
+    width: 420px;
+    float: right;
+    position: relative;
+    text-align: right;
+    margin: 10px;
+}
+#gallery {
+    clear: both;
+    position: relative;
+    margin: 10px;
+}
+div .container {
+    float: left;
+    width: 420px;
+    position: relative;
+    display: block;
+    margin: 5px;
+    overflow: auto;
+}
+.clear { 
+    clear: both; 
+}
+img {
+    width: 420px;
+}
+.smallimage {
+    height: 281px;
+}
+.largeImage {
+    height: 630px;
+}
+.blackText {
+    text-transform: uppercase;
+    color: #000000;
+}
+.whiteText {
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.topLeft {
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    font-size: 16px;
+}
+.bottomRight {
+    position: absolute;
+    bottom: 3px;
+    right: 6px;
+    font-size: 16px;
+}
+.bottomLeft {
+    position: absolute;
+    bottom: 3px;
+    left: 6px;
+    font-size: 16px;
+}
+#contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+#contact h2, #contact h2 + p {
+    text-align: center;
+    margin: 10px auto auto 5px;
+}
+#contact form {
+    text-align: left;
+}
+#contact label, [placeholder] {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#contact input {
+    width: 850px;
+    height: 30px;
+}
+[placeholder] {
+    color: #007D7B;
+}
+button {
+    background: #007D7B;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 420px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+button:active {
+    color: #007D7B;
+    background: #FFFFFF;
+}
+footer {
+    text-align: center;
+}
